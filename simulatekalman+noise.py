@@ -13,7 +13,7 @@ current_waypoint_index = 0
 e_stop_active = False
 gps_data = []
 gps_data_lock = Lock()
-current_lat, current_lon = 51.505, -0.09  # Initial simulated position (e.g., London)
+current_lat, current_lon = 35.8486, -86.3669  # Initial simulated position (e.g., London)
 robot_speed = 0.00001  # Simulated speed in degrees
 dt = 0.1  # Time step in seconds
 
